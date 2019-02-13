@@ -15,7 +15,7 @@ export default class Car {
         <div class="card col-3">
             <img class="card-img-top" src="${this.img}" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">${this.title}</h5>
+                <h6 class="card-title">${this.title}</h56>
                 <p class="card-text">${this.description} -- ${this.price}</p>
                 <button onclick="app.controllers.carController.deleteCar(${this.id})">Remove</button>
             </div>

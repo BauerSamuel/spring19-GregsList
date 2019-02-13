@@ -20,7 +20,6 @@ function logCars() {
 //Public
 export default class CarController {
     constructor() {
-        debugger
         _cs.addSubscriber('cars', draw)
         _cs.addSubscriber('cars', logCars)
         draw()
